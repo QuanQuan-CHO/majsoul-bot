@@ -18,8 +18,8 @@ JIN_ZHI_JIAN = (1128, 800)
 SAN_REN_DONG = (1135, 830)
 QUE_DING = (1432, 1040)
 OPERATION = (857, 897)  # 拔北或立直
-HE_PAI = (35, 680)
-TIAO_GUO = (36, 740)
+HE_PAI = (35, 660)
+TIAO_GUO = (36, 720)
 
 
 class MyClick:
