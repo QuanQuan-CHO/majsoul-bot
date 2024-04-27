@@ -14,7 +14,7 @@ IDLE_TIME = 20  # 超过这个时间认为需要重新匹配游戏
 # 游戏分辨率：1600*1200
 IDLE = (400, 400)  # 挪开鼠标避免印象截图
 DUAN_WEI_CHANG = (1102, 484)
-YIN_ZHI_JIAN = (1128, 700)
+JIN_ZHI_JIAN = (1128, 800)
 SAN_REN_DONG = (1135, 830)
 QUE_DING = (1432, 1040)
 OPERATION = (857, 897)  # 拔北或立直
@@ -79,7 +79,7 @@ if __name__ == '__main__':
                     sleep(8)
                     my_click.click(DUAN_WEI_CHANG)
                     sleep(0.8)
-                    my_click.click(YIN_ZHI_JIAN)
+                    my_click.click(JIN_ZHI_JIAN)
                     sleep(0.8)
                     my_click.click(SAN_REN_DONG)
                     waiting = False
