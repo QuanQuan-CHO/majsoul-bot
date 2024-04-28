@@ -67,7 +67,7 @@ if __name__ == '__main__':
                     # 点左上角……不然bot就要帮你抽十连了
                     box[2] -= (box[2] - box[0]) // 2
                     box[3] -= (box[3] - box[1]) // 2
-                    for i in range(30):
+                    for i in range(60):
                         my_click.click(box)
                         sleep(0.1)
             else:
