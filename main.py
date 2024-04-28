@@ -77,7 +77,11 @@ if __name__ == '__main__':
                     my_click.click(xyxy_buttons[buttons.index('match')])
                 elif 'silver' in buttons:
                     print('click silver')
-                    my_click.click(xyxy_buttons[buttons.index('silver')])
+                    button = xyxy_buttons[buttons.index('silver')]
+                    # 更改y坐标，银之间移到金之间
+                    button[1] += 150
+                    button[3] += 150
+                    my_click.click(button)
                 elif 'zimo' in buttons:
                     print('click zimo')
                     my_click.click(xyxy_buttons[buttons.index('zimo')])
