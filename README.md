@@ -15,7 +15,7 @@ yolov8识别游戏界面 + Mahjong-helper（来自[EndlessCheng](https://github.
 ### 使用方法：
 
 1. 正确安装yolov8（参考[文档](https://docs.ultralytics.com/quickstart/#install-ultralytics)，需要先手动装pytorch再装yolo）
-2. 用**管理员模式**启动脚本即可，游戏崩端会自动重启，想要结束脚本关闭即可
+2. 用**管理员模式**启动脚本即可，脚本会自动打开Steam并启动雀魂，游戏崩端会自动重启，想要结束脚本关闭即可
 
 ### 数据集：
 
