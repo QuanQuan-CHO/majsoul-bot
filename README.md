@@ -6,6 +6,8 @@
 
 yolov8识别游戏界面 + Mahjong-helper（来自[EndlessCheng](https://github.com/EndlessCheng)） + pyautogui模拟鼠标点击
 
+bot行为：无防守逻辑，无法副露，无法识别宝牌
+
 **警告！！！警告！！！警告！！！** 本项目仅供学习体验实战使用yolov8框架，请勿在有价值的账号上使用，请勿频繁使用，请勿商用开源代码。
 
 因使用本代码带来的掉分、封号等问题，或者因pyautogui点击到错误位置带来的损失，作者概不负责。
