@@ -67,6 +67,9 @@ if __name__ == '__main__':
                     # 点左上角……不然bot就要帮你抽十连了
                     box[2] -= (box[2] - box[0]) // 2
                     box[3] -= (box[3] - box[1]) // 2
+                    # x坐标修复。防止点到"商家"，游戏分辨率 2100 x 1181
+                    box[0] += 2
+                    box[2] += 2
                     for i in range(60):
                         my_click.click(box)
                         sleep(0.1)
